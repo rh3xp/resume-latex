@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+\usepackage{charter}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\bfseries\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{1pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\LARGE Parth Krishna} \\ \vspace{1pt}
+     {Business Analyst} \\
+    +91 7406338696 $\cdot$ \href{mailto:parthkrishna1998@gmail.com}{parthkrishna1998@gmail.com} $\cdot$ 
+    \href{https://www.linkedin.com/in/parthkrishna/}{linkedin.com/in/parthkrishna/} $\cdot$
+    Gurugram, India
+\end{center}
+
+% \setlength{\baselineskip}{10pt}
+
+%-----------SUMMARY-----------
+\section*{Professional Summary}
+{}Passionate Business Analyst with experience integrating data-driven insights using analytical expertise and delivering high-impact end-to-end automation solutions, from process automation to the development of intuitive dashboards and web applications.
+\newline
+\\
+Leveraging my programming expertise in Python and Microsoft PowerApps Suite, I excel in data extraction and manipulation, enabling data-driven decision-making and predictive analytics to perform Digital Transformation for global clients with a proven track record of collaborating with cross-functional teams including Operations, Finance, Healthcare and Environmental Safety \& Governance industry.
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+\small{
+    {Python SQL $\cdot$ Microsoft PowerApps \& Power Automate $\cdot$ Linux $\cdot$ Git $\cdot$  Tableau $\cdot$ CI/CD $\cdot$ Smartsheet $\cdot$ ServiceNow $\cdot$ Postman $\cdot$ Robotic Process Automation $\cdot$ Natural Language Processing $\cdot$ Quality Assurance $\cdot$ Business Process Mapping $\cdot$ KPI Reporting $\cdot$ Predictive Data Modelling $\cdot$ Generative AI $\cdot$ Cross-functional teamwork
+    }}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Business Analyst}{Dec 2022 -- Present}
+      {Genpact}{Gurugram}
+      \resumeItemListStart
+        \resumeItem{Worked with NAM \& LATAM clients to drive Ops Analytics goals by doing Process Automation to retain Data Integrity, resolve human error, improve efficiency and reduce operation time using tools like Tableau, Python \& MS Excel.}
+        \resumeItem{Implemented a solution architecture with MS PowerApps Suite to aggregate data and seamlessly integrate triggered workflows along with AI Builder Sentiment Analysis to increase overall BI impact of more than \$40,000.}
+        \resumeItem{Developed a versatile Python-based automation across different verticals using Lean Six Sigma Ideology which facilitated timely datasource refresh \& failure intimation. This aided the global region heads in the identification of impacted dashboards and addressing aging issues promptly.}
+        \resumeItem{Deploying Predictive Analytics \& NLP based Machine Learning models to forecast resource utilization, future trends \& mitigate the risk in decision
+        making to deliver requirements. Developed Python web application with interactive dashboards which helped in increased winning prospect.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Associate}{Feb 2021 - Nov 2022}
+      {Genpact}{Gurugram}
+      \resumeItemListStart
+        \resumeItem{Handled EMEA region and delivered Operations goals by providing inventory \& order management. Engineered ServiceNow Workflows to create KPIs \& forecasting models by
+        analyzing inventory data with Python to increase On-Time Delivery.}
+        \resumeItem{Worked with AMER region to design a Data Quality-focused Python based packaged solution tailored to client needs, enhancing the evaluation of periodic reports. Resulted in a
+        highly efficient planning process and improved overall productivity.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Software Developer}{Jun 2019 - Aug 2020}
+      {Invide Labs}{Remote}
+      \resumeItemListStart
+        \resumeItem{Established and managed AWS architecture, transitioning Django APIs into EC2 servers with elastic IP using automated pipelines Github Actions
+        CI/CD and bash scripts.}
+        \resumeItem{Developed and hosted custom Twitter bots which provided real-time traffic monitoring and analysis with NLP based word cloud generation.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Subject Matter Expert - Cryptography \& Python}{Aug 2018 - May 2019}
+      {PESU I\/O}{Bengaluru}
+      \resumeItemListStart
+        \resumeItem{Guided 100+ undergraduate students to intermediate expertise in cryptography and demonstrated various encryption and decryption techniques using bash and Python scripts.}
+        \resumeItem{Mentored 50+ undergraduate students to intermediate proficiency in Python, illustrating essential concepts through code implementation for better comprehension.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%            \resumeItem{Visualized GitHub data to show collaboration}
+%            \resumeItem{Used Celery and Redis for asynchronous tasks}
+%          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%          \resumeItemListStart
+%            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%          \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PES University}{Bengaluru}
+      {B.Tech in Computer Science, Specialisation in Systems Design and Algorithms}{2016 - 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------Certifications-----------
+\section{Certifications}
+  \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Dataiku Core Designer} 
+    }
+    \item{
+     \textbf{Dataiku ML Practitioner}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
